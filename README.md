@@ -1,4 +1,4 @@
 # Portfolio Website
-## [Theme by:](https://github.com/bedimcode/portfolio-responsive-complete)
+## Theme by:[Link](https://github.com/bedimcode/portfolio-responsive-complete)
 
 ### Eddie's Personal Website
