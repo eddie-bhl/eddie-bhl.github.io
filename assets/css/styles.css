@@ -193,7 +193,7 @@ img {
   }
 .home__subtitle {
   font-size: var(--h2-font-size);
-  color: hsl(55, 100%, 50%);
+  color: hsl(55, 80%, 50%);
 }
 .home__title-color {
   color: var(--first-color);
