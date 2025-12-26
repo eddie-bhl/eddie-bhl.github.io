@@ -253,6 +253,9 @@ img {
   width: 200px;
   border-radius: 0.5rem;
 }
+.about__text {
+  text-align: justify;
+}
 
 /* ===== SKILLS =====*/
 .skills__container {
