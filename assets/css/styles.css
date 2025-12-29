@@ -347,16 +347,20 @@ img {
 .work__img img:hover {
   transform: scale(1.1);
 } */
+/* ===== WORK ===== */
+
 .work__container {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 2.5rem;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 .work__item {
   display: grid;
-  grid-template-columns: 280px 1fr;
-  gap: 2rem;
+  grid-template-columns: 260px 1fr;
+  gap: 1.5rem;
   align-items: center;
   background: #fff;
   padding: 1.5rem;
@@ -370,6 +374,10 @@ img {
   object-fit: cover;
 }
 
+.work__content {
+  text-align: justify;
+}
+
 .work__title {
   font-size: 1.1rem;
   margin-bottom: 0.5rem;
@@ -377,8 +385,8 @@ img {
 
 .work__description {
   font-size: 0.9rem;
-  margin-bottom: 1rem;
   line-height: 1.6;
+  margin-bottom: 1rem;
 }
 
 .work__link {
